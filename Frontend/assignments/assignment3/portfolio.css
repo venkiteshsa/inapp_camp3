@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #DAD036;
+}
+
+.menu {
+    left:0;
+    top: 0;
+    position: absolute;
+    width: 200px;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.menu li {
+    padding-right: 20px;
+    background-color: black;
+    transition: 0.4s;
+}
+
+.menu li:hover {
+    padding-right: 0;
+}
+
+.menu a {
+    background-color: white;
+    display: block;
+    padding: 8px 10px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: blue;
+}
+
+.menu .active a {
+    background-color: blueviolet;
+    color: white;
+}
+
+.menu .active {
+    padding-right: 0px;
+}
+
+.body {
+    margin-left: 200px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: #A6CC37;
+    padding: 20px;
+    height: fit-content;
+    color: purple;
+}
+
+footer {
+    clear: both
+}
+
+h1 {
+    font-family: sans-serif;
+}

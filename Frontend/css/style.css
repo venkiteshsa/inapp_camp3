@@ -1,0 +1,45 @@
+p {
+    width: 120px;
+    height: 30px;
+    padding: 20px;
+    margin: 30px;
+    border: 2px solid;
+    font-size: 14px;
+    color: blue;
+}
+
+h1 {
+    color: red;
+}
+
+*{
+    color: green;
+}
+
+.splclass {
+    color: gold;
+}
+
+#splid {
+    color: brown;
+}
+
+input[type="button"] {
+    background-color: blue;
+    color: white;
+    width: 20%;
+}
+
+text, h2 {
+    color: gray;
+}
+
+a:hover {
+    outline: 3px dotted green;
+}
+
+p:hover:first-letter {
+    color: green;
+    font-weight: bold;
+    font-size: 25px;
+}
