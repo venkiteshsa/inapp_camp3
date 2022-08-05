@@ -49,6 +49,7 @@ function addStud() {
         student[id].age = age;
         student[id].loc = loc;
     }
+    alert('Student Added')
     reset();
     displayStud();
 }
