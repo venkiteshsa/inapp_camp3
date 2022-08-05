@@ -1,0 +1,21 @@
+* {
+    background-color: aquamarine;
+    font-family: sans-serif;
+}
+
+input {
+    width: 30%;
+    padding: 12px 5px;
+    margin: 1px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+input:focus {
+    background-color: honeydew;
+    border: 3px solid #555;
+}
+
+p {
+    color:  red;
+}
