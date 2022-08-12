@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="form-box">
+        <h2 class="title">My feedback form</h2>
+        <div class="user-box">
+            <form enctype="multipart/form-data" action="output.py" method="post">
+                <ul>
+                    <li> Name: <input type="text" name="name"></li> <br>
+                    <li> Email: <input type="email" name="email"></li> <br>
+                    <li> Password: <input type="password" name="password"></li> <br>
+                    <li> Please check all the emotions that apply to you:</li> <br>
+                    <ul>
+                        <li> Angry <input type="checkbox" name="emotion" value="Angry"></li> <br>
+                        <li> Sad <input type="checkbox" name="emotion" value="Sad"></li> <br>
+                        <li> Happy <input type="checkbox" name="emotion" value="Happy"></li> <br>
+                        <li> Ambivalent <input type="checkbox" name="emotion" value="ambivalent"></li> <br>
+                    </ul>
+                    <li> How satisfied were you with our service?
+                    <ul>
+                        <li> Very satisfied <input type="radio" name="satisfaction" value="Very satisfied"></li> <br>
+                        <li> Satisfied <input type="radio" name="satisfaction" value="Satisfied"></li> <br>
+                        <li> Didn't care <input type="radio" name="satisfaction" value="Didn't care"></li> <br>
+                        <li> Dissatisfied: <input type="radio" name="satisfaction" value="Dissatisfied"></li> <br>
+                        <li> Very dissatisfied: <input type="radio" name="satisfaction" value="Very dissatisfied"></li> <br>
+                    </ul>
+                    <li> Further comments: <textarea name="comments" id="comments" cols="30" rows="5" placeholder="Enter comments">
+                    </textarea></li>  <br>
+                    <li> Bio photo: <input type="file" class="img" name="file"></li> <br>
+                    <li> 
+                        <label for="location">Location:</label>
+                        <select name="location">
+                            <option value="Asia">Asia</option>
+                            <option value="Africa">Africa</option>
+                            <option value="North America">North America</option>
+                            <option value="South America">South America</option>
+                            <option value="Europe">Europe</option>
+                        </select>
+
+                    </li> <br>
+                </ul>
+                <input type="submit" class="submit" value="Submit" />
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>
